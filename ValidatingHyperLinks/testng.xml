@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.wipro.common.RetryListener" />
+	</listeners>
+	<test thread-count="5" name="ChromeTest">
+		<parameter name="browserType" value="chrome" />
+		<parameter name="appURL" value="https://www.google.com/" />
+		<classes>
+			<class name="com.wipro.tests.VerifyHyperLinks" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="FireFoxTest">
+		<parameter name="browserType" value="firefox" />
+		<parameter name="appURL" value="https://www.google.com/" />
+		<classes>
+			<class name="com.wipro.tests.VerifyHyperLinks" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

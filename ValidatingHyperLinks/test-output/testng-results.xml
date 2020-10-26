@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="399236" started-at="2020-10-26T09:30:07Z" finished-at="2020-10-26T09:36:46Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="195336" started-at="2020-10-26T09:30:07Z" finished-at="2020-10-26T09:33:22Z">
+      <class name="com.wipro.tests.VerifyHyperLinks">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.wipro.tests.VerifyHyperLinks@6093dd95]" name="beforeTest" is-config="true" duration-ms="7507" started-at="2020-10-26T09:30:07Z" finished-at="2020-10-26T09:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openSearchPage()[pri:0, instance:com.wipro.tests.VerifyHyperLinks@6093dd95]" name="openSearchPage" duration-ms="16" started-at="2020-10-26T09:30:14Z" finished-at="2020-10-26T09:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearchPage -->
+        <test-method status="PASS" signature="searchIndia()[pri:1, instance:com.wipro.tests.VerifyHyperLinks@6093dd95]" name="searchIndia" duration-ms="1839" started-at="2020-10-26T09:30:14Z" finished-at="2020-10-26T09:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIndia -->
+        <test-method status="PASS" signature="countHyperLinksDisplayed()[pri:2, instance:com.wipro.tests.VerifyHyperLinks@6093dd95]" name="countHyperLinksDisplayed" duration-ms="56" started-at="2020-10-26T09:30:16Z" finished-at="2020-10-26T09:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countHyperLinksDisplayed -->
+        <test-method status="PASS" signature="verifyNoBrokenLinks()[pri:3, instance:com.wipro.tests.VerifyHyperLinks@6093dd95]" name="verifyNoBrokenLinks" duration-ms="181733" started-at="2020-10-26T09:30:16Z" finished-at="2020-10-26T09:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoBrokenLinks -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.wipro.tests.VerifyHyperLinks@6093dd95]" name="afterTest" is-config="true" duration-ms="4153" started-at="2020-10-26T09:33:18Z" finished-at="2020-10-26T09:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.wipro.tests.VerifyHyperLinks -->
+    </test> <!-- ChromeTest -->
+    <test name="FireFoxTest" duration-ms="203868" started-at="2020-10-26T09:33:22Z" finished-at="2020-10-26T09:36:46Z">
+      <class name="com.wipro.tests.VerifyHyperLinks">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.wipro.tests.VerifyHyperLinks@3fee9989]" name="beforeTest" is-config="true" duration-ms="5553" started-at="2020-10-26T09:33:22Z" finished-at="2020-10-26T09:33:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openSearchPage()[pri:0, instance:com.wipro.tests.VerifyHyperLinks@3fee9989]" name="openSearchPage" duration-ms="8" started-at="2020-10-26T09:33:28Z" finished-at="2020-10-26T09:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearchPage -->
+        <test-method status="PASS" signature="searchIndia()[pri:1, instance:com.wipro.tests.VerifyHyperLinks@3fee9989]" name="searchIndia" duration-ms="2605" started-at="2020-10-26T09:33:28Z" finished-at="2020-10-26T09:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIndia -->
+        <test-method status="PASS" signature="countHyperLinksDisplayed()[pri:2, instance:com.wipro.tests.VerifyHyperLinks@3fee9989]" name="countHyperLinksDisplayed" duration-ms="80" started-at="2020-10-26T09:33:30Z" finished-at="2020-10-26T09:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countHyperLinksDisplayed -->
+        <test-method status="PASS" signature="verifyNoBrokenLinks()[pri:3, instance:com.wipro.tests.VerifyHyperLinks@3fee9989]" name="verifyNoBrokenLinks" duration-ms="195089" started-at="2020-10-26T09:33:30Z" finished-at="2020-10-26T09:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoBrokenLinks -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.wipro.tests.VerifyHyperLinks@3fee9989]" name="afterTest" is-config="true" duration-ms="523" started-at="2020-10-26T09:36:45Z" finished-at="2020-10-26T09:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.wipro.tests.VerifyHyperLinks -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

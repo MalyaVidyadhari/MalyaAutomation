@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.wipro.common.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="FireFoxTest(failed)">
+    <parameter name="appURL" value="https://www.google.com/"/>
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.wipro.tests.VerifyHyperLinks">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verifyNoBrokenLinks"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.wipro.tests.VerifyHyperLinks -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
