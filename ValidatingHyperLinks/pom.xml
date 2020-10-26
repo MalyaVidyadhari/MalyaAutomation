@@ -89,6 +89,7 @@
 
 	</dependencies>
 	
+	
 	<!-- Below plug-in is used to execute single testng.xml file -->
 	<build>
 		<plugins>
